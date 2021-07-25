@@ -44,9 +44,19 @@ then next > install. Afterward, the server will reboot.
  
  ## Join the server to the Active Directory
  
- with an anccount of Active Directory execute this command:
+ 5. with an anccount of Active Directory execute this command:
  `realm join --user=[userAD] [domain name]`
  
   ![join](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/joindomain.png)
  
+ 6. check that the server was joined
  
+ * type those commands: `realm list`, `id [userAD]@[domain name]`
+
+
+ ![check](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/check.png)
+ ![check part 2](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/check3.png)
+ 
+ * see the server in AD
+
+![check part 3](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/check2.png)
