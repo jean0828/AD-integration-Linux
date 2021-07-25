@@ -27,10 +27,19 @@ then next > install. Afterward, the server will reboot.
 
 ![AD server configuration part 4](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/adconfiguration4.png)
 
+## Check Connectivity
 
 3. Ensure the Linux server (in this case Centos7) responds to the domain.
 
 ![Linux connectivity](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/linuxserver.png)
 ![Linux connectivity part 2](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/linuxserver2.png)
 
+## Install requirements in Linux
 
+4. Install the following requirements in order to ensure a proper integration.
+
+```yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python
+ ```
+ ![requirements](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/requirements.png)
+ 
+ ## Join the server to the Active Directory
