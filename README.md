@@ -4,4 +4,4 @@ This is a tutorial to integrate a linux server in an Active Directory environmen
 ## Instalation of Active Directory
 1. we need a Windows server and adding the role of Active Directory.
 
-![image](AD-integration-Linux\ADserver1.png)
+![alt text](https://github.com/jean0828/AD-integration-Linux/blob/main/ADserver1.png?raw=true)
