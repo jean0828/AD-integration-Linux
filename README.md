@@ -1,5 +1,9 @@
 # AD-integration-Linux
-This is a tutorial to integrate a linux server in an Active Directory environment
+This is a tutorial to integrate a linux server in an Active Directory environment.
+
+For this tutorial we have the following devices:
+* Active Directory Server: IP 10.0.0.4
+* Linux Server: IP 10.0.0.5
 
 ## Instalation of Active Directory
 1. we need a Windows server and adding the role of Active Directory.
@@ -23,5 +27,10 @@ then next > install. Afterward, the server will reboot.
 
 ![AD server configuration part 4](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/adconfiguration4.png)
 
+
+3. Ensure the Linux server (in this case Centos7) responds to the domain.
+
+![Linux connectivity](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/linuxserver.png)
+![Linux connectivity part 2](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/linuxserver2.png)
 
 
