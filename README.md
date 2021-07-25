@@ -38,8 +38,15 @@ then next > install. Afterward, the server will reboot.
 
 4. Install the following requirements in order to ensure a proper integration.
 
-```yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python
- ```
+`yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python`
+
  ![requirements](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/requirements.png)
  
  ## Join the server to the Active Directory
+ 
+ with an anccount of Active Directory execute this command:
+ `realm join --user=[userAD] [domain name]`
+ 
+  ![join](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/joindomain.png)
+ 
+ 
