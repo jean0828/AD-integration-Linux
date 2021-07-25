@@ -60,3 +60,35 @@ then next > install. Afterward, the server will reboot.
  * see the server in AD
 
 ![check part 3](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/check2.png)
+
+7. modify sssd configuration
+
+modify the file /etc/sssd/sssd.conf from this:
+
+![sssd](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/sssd.png)
+
+to this:
+
+![new sssd](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/sssd2.png)
+
+This is used to allow auth without the domain name. 
+
+* restart the service
+
+![restart](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/restart.png)
+
+* check that you can request info without write `user@domain` with this command: `id [userAD]`
+
+![id user](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/sssd3.png)
+
+## Auth with an ADUser in the Linux Server
+
+We can do this by SSH. However, for this example I used only `su` command.
+
+![auth](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/userauth.png)
+
+
+
+
+
+
