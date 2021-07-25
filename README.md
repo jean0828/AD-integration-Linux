@@ -10,4 +10,18 @@ This is a tutorial to integrate a linux server in an Active Directory environmen
 ![AD server installation part 4](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/ADserver4.png)
 ![AD server installation part 5](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/ADserver5.png)
 
-2. test
+2. Configure the domain
+
+In this case the domain name is: *lab.local*
+
+![AD server configuration](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/adconfiguration.png)
+![AD server configuration part 2](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/adconfiguration2.png)
+![AD server configuration part 3](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/adconfiguration3.png)
+
+then next > install. Afterward, the server will reboot.
+
+
+![AD server configuration part 4](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/adconfiguration4.png)
+
+
+
