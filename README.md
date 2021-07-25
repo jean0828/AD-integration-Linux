@@ -88,7 +88,13 @@ We can do this by SSH. However, for this example I used only `su` command.
 ![auth](https://github.com/jean0828/AD-integration-Linux/blob/main/ADtutorial/userauth.png)
 
 
+# Considerations
 
+At this point all users from the Active Directory domain can log in the Linux server. However, they do not have sudo privileges. From a security view, we need to ensure that only allowed users can access to the server and not all. To solve that, we need to do the following steps:
+
+* deny access for all users with this command: `realm deny --all`
+* permit specific users or groups of Active Directory with those commands: `realm permit [user]@domain_name`, `realm permit -g [groupname]@domain_name`
+* restart sssd service
 
 
 
