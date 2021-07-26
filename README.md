@@ -1,5 +1,5 @@
 # AD-integration-Linux
-This is a tutorial to integrate a linux server in an Active Directory environment.
+This is a tutorial to access with an Active Directory user in a linux server.
 
 For this tutorial we have the following devices:
 * Active Directory Server: IP 10.0.0.4
